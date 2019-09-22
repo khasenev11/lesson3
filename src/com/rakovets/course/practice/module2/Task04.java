@@ -13,7 +13,7 @@ public class Task04 {
 	public static void main(String[] args) {
 		//FIXME
 		// Переменные, которые можно изменять для проверки различных вариантов входных параметров
-		int weight = 9;
+		int weight = 16;
 
 		// Код необходимый для тестирования, не изменять
 		weight = (args.length == 0) ? weight : Integer.valueOf(args[0]);
@@ -21,5 +21,6 @@ public class Task04 {
 		//TODO
 		// Код, решающий задачу пишем ниже, при этом используяся переменные объявленные выше (их можно изменять)
 		// Для проверки решения необходимо запустить @Test для данного class (в директории test)
+		System.out.println(Math.sqrt(weight));
 	}
 }

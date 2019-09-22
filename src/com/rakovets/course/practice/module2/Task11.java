@@ -22,5 +22,9 @@ public class Task11 {
 		//TODO
 		// Код, решающий задачу пишем ниже, при этом используяся переменные объявленные выше (их можно изменять)
 		// Для проверки решения необходимо запустить @Test для данного class (в директории test)
+		double k = temperatureInCelsius +273;
+		double c = (5/9) * temperatureInCelsius + 32;
+		final String DEGREE  = "\u00b0";
+		System.out.println("Celsius" + " "+ temperatureInCelsius+DEGREE+" "+"- Kelvin "+k+DEGREE+" "+"- Fahrenheit "+c+DEGREE);
 	}
 }
